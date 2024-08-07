@@ -42,39 +42,29 @@ div {
     padding: 2px;
 }
 
-@media all and (max-width: 772px) {
-    div img {
-        border: 5px solid blue;
-        border-radius: 25px;
-        width: 45vh;
-        height: 45vh;
-        max-height: 30vh;
-        display: block;
-        margin: auto;
-    }
-
+@media all and (min-width: 772px) {
     div {
         display: inline-block;
-        width: 45vh;
+        width: 45vw;
         margin: 5px;
         padding: 2px;
     }
-}
 
-@media all and (max-width: 998px) {
     div img {
         border: 5px solid blue;
         border-radius: 25px;
-        width: 45vh;
+        width: 45vw;
         height: 45vh;
         max-height: 30vh;
         display: block;
         margin: auto;
     }
+}
 
+@media all and (min-width: 998px) {
     div {
         display: inline-block;
-        width: 30vh;
+        width: 30vw;
         margin: 5px;
         padding: 2px;
     }
